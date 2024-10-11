@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: #131314;
+    font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+    width: 8px; 
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #444746;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
