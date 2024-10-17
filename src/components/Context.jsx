@@ -21,8 +21,7 @@ const Context = () => {
   }
   
   // Example usage:
-  const inputString = "This is **bold** text and * this is a new line. ```code```.";
-  console.log(formatString(inputString));
+  
   
   return (
     <div className="text-white flex flex-col w-full  h-[80vh] overflow-auto py-14 items-center">
