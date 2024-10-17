@@ -20,9 +20,6 @@ const Context = () => {
     return formatted;
   }
   
-  // Example usage:
-  
-  
   return (
     <div className="text-white flex flex-col w-full  h-[80vh] overflow-auto py-14 items-center">
       {response.map((data, index) => {
